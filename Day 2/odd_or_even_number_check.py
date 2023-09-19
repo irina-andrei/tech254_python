@@ -10,3 +10,4 @@ else:
     print(f"Number {number_to_check} is odd.")
 # Checking whether the number divided by 2 has the remainder 0. 
 # If so, then it's even. Otherwise it's odd.
+#
