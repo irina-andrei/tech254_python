@@ -1,5 +1,5 @@
-luke github LSF970
-sharuk khanmaster
+luke github: LSF970
+sharuk github: khanmaster
 
 
 [14:18] Andrew Kelley: from pprint import pprint
