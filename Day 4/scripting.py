@@ -17,7 +17,8 @@ print(sys.version)
 
 
 ''' os '''
-print(os.getcwd())
+print(f"This is the current folder: {os.getcwd()}")
+
 # os.chdir("C:/Users/irina/PycharmProjects/Sparta/")
 # This will change the directory to the one specified.
 
