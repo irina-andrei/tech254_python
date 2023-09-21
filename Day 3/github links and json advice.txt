@@ -4,3 +4,6 @@ sharuk khanmaster
 
 [14:18] Andrew Kelley: from pprint import pprint
 [14:18] Andrew Kelley: just use pprint(XYZ) instead of print(XYZ)
+
+
+https://app.diagrams.net/
