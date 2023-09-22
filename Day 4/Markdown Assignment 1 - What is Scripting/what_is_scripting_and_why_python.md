@@ -61,6 +61,8 @@ Python and DevOps combined can be used in synergy for building next-generation s
 
 ### What is a script? And how are they different to Programs?
 A Python script is a file that generally contains a short self-contained set of instructions, i.e., lines of code, that **perform a specific task**. They are called scripts because they are read and interpreted by Python line-by-line in order from the first line to the last.
+They are used to automate a task so it doesn't have to be done manually.
+It is often referred to as **removing toil**.
 
 A Python script file usually has the .py suffix file extension. File names can be anything that your operating system allows, but it is recommended that they be short and descriptive of what the script is designed to do. It is also good practice to not have blank spaces in file names.
 
