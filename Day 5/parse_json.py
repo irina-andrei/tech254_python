@@ -1,4 +1,5 @@
 import json
+import sys
 
 
 # Json is used to stare and transport data through systems.
@@ -9,4 +10,4 @@ value = parsed_json["name"]
 print(value)
 print(type(parsed_json))
 
-# Parsing is something(more) understandable. So le'ts make json more understandable for Python.
+# Parsing is something(more) understandable. So let's make json more understandable for Python.
