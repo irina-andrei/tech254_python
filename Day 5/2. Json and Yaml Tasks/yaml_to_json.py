@@ -19,7 +19,6 @@ else:
     print("Usage: yaml_to_json.py <source_file.yaml> [target_file.json]")
 
 # Processing the conversion
-
 output = json.dumps(source_content, indent=4)
 
 # If no target file send to stdout

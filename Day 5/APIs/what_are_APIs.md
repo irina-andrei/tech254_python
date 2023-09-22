@@ -13,7 +13,10 @@ They are so popular because when you’re designing new tools and products, APIs
 
 ![Alt Text](diagram.png)
 
-This diagram showcases the data transfer process in API communication. 
+-> This diagram showcases the data transfer process in API communication. 
+
+* Between client and API: HTTP methods, Json/xml
+* Between API and server: HTTP request, data
 
 <br>
 
@@ -54,11 +57,8 @@ Hypertext transfer protocol secure (HTTPS) is the secure version of HTTP, which 
 
 HTTP headers contain text information stored in key-value pairs, and they are included in every HTTP request (and response, more on that later). These headers communicate core information, such as what browser the client is using and what data is being requested.
 
-Example of HTTP request headers from Google Chrome's network tab:
 
-HTTP request headers
-What is in an HTTP request body?
-The body of a request is the part that contains the ‘body’ of information the request is transferring. The body of an HTTP request contains any information being submitted to the web server, such as a username and password, or any other data entered into a form.
+**The HTTP request body** of a request is the part that contains the ‘body’ of information the request is transferring. The body of an HTTP request contains any information being submitted to the web server, such as a username and password, or any other data entered into a form.
 
 <br>
 
@@ -91,9 +91,6 @@ If the response starts with a ‘4’ or a ‘5’ that means there was an error
 What are HTTP response headers?
 Much like an HTTP request, an HTTP response comes with headers that convey important information such as the language and format of the data being sent in the response body.
 
-Example of HTTP response headers from Google Chrome's network tab:
-
-HTTP response headers
 What is in an HTTP response body?
 Successful HTTP responses to ‘GET’ requests generally have a body which contains the requested information. In most web requests, this is HTML data that a web browser will translate into a webpage.
 
