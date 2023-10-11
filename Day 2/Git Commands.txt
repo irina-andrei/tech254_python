@@ -5,11 +5,17 @@ cd python (enters the python folder)
 ls (gives the folders inside the current folder)
 ls -a (it will give you all folders PLUS hidden ones)
 cd .. (It will go one folder back)
+git init (initiate git repo)
 git status (you will see the status)
 git log (will show commits)
-git add . (will add all folders) ****
-git commit -m "...your comments..." ("First commit" for first) ****
+git add . (will add all folders)
+git commit -m "...your comments..." ("First commit" for first)
 -> git status will show "nothing to commit, working tree clean
 
 .gitignore (file in tracked folder)
 Add ./folder_name to that file, and it won't be tracked
+
+
+eval `ssh-agent`
+ssh-add ~/.ssh/current_ssh
+git push -u origin main
