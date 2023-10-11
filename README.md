@@ -1,3 +1,3 @@
 # tech254_python
-tech254
-#readme file
+
+Days 1-5 of Python
