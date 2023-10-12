@@ -16,6 +16,19 @@ git commit -m "...your comments..." ("First commit" for first)
 Add ./folder_name to that file, and it won't be tracked
 
 
+# creating git branch
+git branch dev
+
+# moving to a new branch
+git checkout dev
+
+# pushing to GitHub on dev branch
+git push -u origin dev
+
+# show what differences were made
+git diff
+
+
 eval `ssh-agent`
 ssh-add ~/.ssh/current_ssh
 git push -u origin main
